@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/all.min.css">
+    <link rel="stylesheet" href="Style/bootstrap.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo.jpeg" />
+    <title>Portfolio </title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
+    <!--Looding-->
+     <div class="looding">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> 
+
+    <!--Nav bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top" id="navbar-scroll">
+        <div class="container-fluid fixed-top  p-2 " id="nav-bg">
+
+
+
+
+            <a class="navbar-brand fs-3 fw-bold ms-5" href="#">Mo Rabee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container p-2">
+                <div class="collapse navbar-collapse p-0 m-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2  fs-5  ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact </a>
+                        </li>
+                        <li class="about ps-2">
+                            <button class="btn text-danger fw-bold btnAbout " id="AboutBtn">About</button>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--end Nav bar-->
+    <!--header-->
+    <header data-aos="fade-right" class="min-vh-100 d-flex justify-content-center align-items-center mt-5" id="Home">
+
+        <div class="heade-caption container ">
+            <h1 class="fs-6 mb-3  world">Welcome to my world</h1>
+            <h2 class="info-name mt-3 fw-bold">Hi, I’m <span class="Myname">Mohamed Rabee </span> a <br><span
+                    id="work"></span>
+            </h2>
+            <p class="fs-6 lh-lg mt-4">I’m a developer experienced in building websites for small and medium-sized
+                businesses.
+                <br>
+                Whether
+                you’re
+                trying to win work, list your services, or create a new online store, <br> I can help.
+                Knows HTML and CSS3, javaScript, jQuery, Bootstrap, <br> and ReactJs
+                Full project management from start to finish
+                Regular communication is important to me, <br> so let’s keep in touch.
+            </p>
+            <div class="links  mt-4">
+                <p class="fined text-uppercase pb-2">find with me</p>
+                <ul class="d-flex gap-3 p-0 m-0">
+
+                    <a target="_blank" class="text-dark p-3 rounded-3 shadow p-3 mb-5  border-0"
+                        href="https://www.facebook.com/profile.php?id=100046332488577&mibextid=ZbWKwL">
+                        <li class="list-unstyled "><i class="fa-brands fa-facebook-f">
+
+                            </i>
+                        </li>
+                    </a>
+
+                    <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                        href="https://github.com/Mohamerabee98">
+                        <li class="list-unstyled "><i class="fa-brands fa-github">
+                            </i>
+                        </li>
+                    </a>
+
+
+                    <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                        href="https://www.linkedin.com/in/mohamed-rabee-66bb03278">
+                        <li class="list-unstyled "><i class="fa-brands fa-linkedin-in">
+                            </i>
+                        </li>
+                    </a>
+
+                </ul>
+
+                <div>
+                    <a href="Mohamed rabee.pdf"><button
+                            class="btnnn bg-danger rounded-3 text-white text-uppercase border-0 p-2">Dawnload
+                            CV <span class="ms-1"><i class="fa-solid fa-arrow-down"></i></span>
+                        </button>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1d3AJ8-Y_40C8Jv1du25VCchbGl0NngtS/view?usp=drive_link "
+                        target="_blank"><button
+                            class="btnnn bg-danger border-0 rounded-3 text-white text-uppercase ms-2 p-2">Veiw
+                            my Cv
+                            <span class="ms-1"><i class="fa-solid fa-eye "></i></span>
+                        </button>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--End Header-->
+    <!--Projects-->
+    <section class="slide my-5 " id="Projects">
+        <p class="text-danger text-center" data-aos="fade-up">Projects</p>
+        <h1 class="text-center mb-5 fw-bold " data-aos="fade-up">My Projects</h1>
+        <div dir="rtl" class="swiper swiper-work mySwiper container">
+            <div class="swiper-wrapper position-relative    ">
+                <!-- slide -->
+                <div class="swiper-slide swiper-slide-work ">
+                    <!-- inner slide -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="image/ecommerce.png" class=" rounded-3 " alt="ecommerce">
+                        </div>
+                        <div class="col-md-4 p-4 d-flex flex-column justify-content-center align-items-start">
+                            <p>web Devoleper</p>
+                            <h3 class="mb-5">Ecommerce-App</h3>
+
+                            <a target="_blank" href="https://ecommerce-app-nu-five.vercel.app/"><button
+                                    class=" p-2 btnProject   fs-4 border-0 ">Watch
+                                    Project</button></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide swiper-slide-work ">
+                    <!-- inner slide -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="image/bookmark.png" class=" rounded-3" alt="bookmark">
+                        </div>
+                        <div class="col-md-4 p-4 d-flex flex-column justify-content-center align-items-start">
+                            <p>web Devoleper</p>
+                            <h3 class="mb-5">Bookmarker</h3>
+
+                            <a target="_blank" href="https://mohamerabee98.github.io/Bookmark-/"><button
+                                    class=" p-2 btnProject   fs-4 border-0 ">Watch
+                                    Project</button></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide swiper-slide-work ">
+                    <!-- inner slide -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="image/Crud.png" class=" rounded-3" alt="Crud">
+                        </div>
+                        <div class="col-md-4 p-4 d-flex flex-column justify-content-center align-items-start">
+                            <p>web Devoleper</p>
+                            <h3 class="mb-5">CRUD System</h3>
+
+                            <a target="_blank" href="https://mohamerabee98.github.io/Crud-System/"><button
+                                    class=" p-2 btnProject   fs-4 border-0 ">Watch
+                                    Project</button></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide swiper-slide-work ">
+                    <!-- inner slide -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="image/weather.png" class=" rounded-3" alt="weather">
+                        </div>
+                        <div class="col-md-4 p-4 d-flex flex-column justify-content-center align-items-start">
+                            <p>web Devoleper</p>
+                            <h3 class="mb-5">Weather App </h3>
+
+                            <a target="_blank" href="https://mohamerabee98.github.io/Weather-/"><button
+                                    class=" p-2 btnProject   fs-4 border-0 ">Watch
+                                    Project</button></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide swiper-slide-work ">
+                    <!-- inner slide -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="image/bazel.png" class=" rounded-3" alt="bazel">
+                        </div>
+                        <div class="col-md-4 p-4 d-flex flex-column justify-content-center align-items-start">
+                            <p>web Devoleper</p>
+                            <h3 class="mb-5">bazel project </h3>
+
+                            <a target="_blank" href="https://mohamerabee98.github.io/bazel_project/"><button
+                                    class=" p-2 btnProject   fs-4 border-0 ">Watch
+                                    Project</button></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide swiper-slide-work ">
+                    <!-- inner slide -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="image/Quots.png" class=" rounded-3" alt="Quots">
+                        </div>
+                        <div class="col-md-4 p-4 d-flex flex-column justify-content-center align-items-start">
+                            <p>web Devoleper</p>
+                            <h3 class="mb-5">Quotes-js </h3>
+
+                            <a target="_blank" href=" https://mohamerabee98.github.io/Quotes-js/"><button
+                                    class=" p-2 btnProject   fs-4 border-0 ">Watch
+                                    Project</button></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide swiper-slide-work ">
+                    <!-- inner slide -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="image/Dan.png" class=" rounded-3" alt="DANIELS">
+                        </div>
+                        <div class="col-md-4 p-4 d-flex flex-column justify-content-center align-items-start">
+                            <p>web Devoleper</p>
+                            <h3 class="mb-5">DANIELS Portfolio </h3>
+
+                            <a target="_blank" href="https://mohamerabee98.github.io/DANIELS/"><button
+                                    class=" p-2 btnProject   fs-4 border-0 ">Watch
+                                    Project</button></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide swiper-slide-work ">
+                    <!-- inner slide -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="image/dev.png" class=" rounded-3" alt="DevFolio">
+                        </div>
+                        <div class="col-md-4 p-4 d-flex flex-column justify-content-center align-items-start">
+                            <p>web Devoleper</p>
+                            <h3 class="mb-5">DevFolio Portfolio </h3>
+
+                            <a target="_blank" href=" https://mohamerabee98.github.io/DevFolio-/"><button
+                                    class=" p-2 btnProject   fs-4 border-0 ">Watch
+                                    Project</button></a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination swiper-pagination-work position-absolute "></div>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section class="mb-5  mt-5" id="Skills">
+        <p class="text-danger text-center" data-aos="fade-up">Skills</p>
+        <h1 class="text-center mb-5 fw-bold " data-aos="fade-up">My Skills</h1>
+
+
+        <div class="container text-center pt-2  ">
+            <div class="row mt-5 imgSkill mx-auto ">
+                <div class="col-md-3 pb-5" data-aos="fade-right">
+                    <img src="image/html img.png" alt="">
+                </div>
+                <div class="col-md-3 pb-5" data-aos="fade-up">
+                    <img src="image/css img.png" alt="">
+                </div>
+                <div class="col-md-3 pb-5" data-aos="fade-up">
+                    <img src="image/js img.png" alt="">
+                </div>
+                <div class="col-md-3  pb-5" data-aos="fade-right">
+                    <img src="image/bootstrap img.png" alt="">
+                </div>
+                <div class="col-md-3" data-aos="fade-right">
+                    <img src="image/tailwind img.png" class="tailwind mt-3" alt="">
+                </div>
+                <div class="col-md-3" data-aos="fade-up">
+                    <img src="image/react js.png" class="react mt-3" alt="">
+                </div>
+                <div class="col-md-3" data-aos="fade-up">
+                    <img src="image/next js img.png" class="w-100 mt-3" alt="">
+                </div>
+                <div class="col-md-3" data-aos="fade-right">
+                    <img src="image/dowsass img.png" class="w-75 mt-3" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!--Contact-->
+    <section class="container  pt-5 mb-5 mt-5" id="contact">
+        <p class="text-danger text-center">Contact</p>
+        <h1 class="text-center mb-3 fw-bold ">Contact With Me.</h1>
+
+
+        <div data-aos="fade-up" class="row mb-5 text-center">
+            <div class="col-md-6 mx-auto ">
+                <h5 class="mb-2"> <span class="fw-bold fs-4">My Phone: </span><a class="text-dark Phone "
+                        href="tel:+20 1123439278">+20
+                        1123439278</a></h5>
+                <h5><span class="fw-bold fs-4"> My Email:</span> <a class="text-dark email" target="_blank"
+                        href="mailto:mohamedrabee556677@gmail.com">mohamedrabee556677@gmail.com </a></h5>
+
+            </div>
+        </div>
+
+        <div class="row  gap-5">
+            <div data-aos="fade-right" class="col-md-4 leftContact p-4  rounded-3">
+                <img src="image/contact1.png" class="w-100 rounded-2" alt="">
+                <h4 class="mt-4 fw-bold text-danger">Mohamed Rabee</h4>
+                <p>Front-End Devoleper</p>
+                <p class="lh-lg">Creative and detail-oriented Front-End Developer with a passion for building
+                    responsive,
+                    user-friendly web applications.</p>
+                <div class="links  mt-4">
+                    <p class="fined text-uppercase pb-2">find with me</p>
+                    <ul class="d-flex gap-3 p-0 m-0">
+
+                        <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                            href="https://www.facebook.com/profile.php?id=100046332488577&mibextid=ZbWKwL">
+                            <li class="list-unstyled "><i class="fa-brands fa-facebook-f">
+
+                                </i>
+                            </li>
+                        </a>
+
+                        <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                            href="https://github.com/Mohamerabee98">
+                            <li class="list-unstyled "><i class="fa-brands fa-github">
+                                </i>
+                            </li>
+                        </a>
+                        <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                            href="https://www.linkedin.com/in/mohamed-rabee-66bb03278">
+                            <li class="list-unstyled "><i class="fa-brands fa-linkedin-in">
+                                </i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="col-md-7 rightContact rounded  ps-3 pt-5 ">
+                <form action="https://formsubmit.co/mohamedrabee556677@gmail.com" method="POST">
+
+                    <div class="mb-4">
+                        <label for="NameInput" class="form-label fs-6 fw-bolder">Name:</label>
+
+                        <input type="text" name="name" class="form-control p-3" id="NameInput" placeholder="your Name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label fs-6 fw-bolder   ">Email address</label>
+
+                        <input type="email" name="email" class="form-control p-3" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-4">
+                        <label for="PhoneInput" class="form-label fs-6 fw-bolder">Phone:</label>
+
+                        <input type="tel" name="tel" class="form-control p-3" id="PhoneInput" placeholder="123-45-678">
+                    </div>
+                    <div class=" mb-4 ">
+                        <label for="exampleFormControlTextarea1" class="form-label fs-6 fw-bolder ">Message:</label>
+
+                        <textarea class="form-control p-3 " name="message" id="exampleFormControlTextarea1"
+                            placeholder="Your Message" rows="4"></textarea>
+                    </div>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <button type="submit" class="btn btnForm fw-bold w-100 fs-5">SEND</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact-->
+    <!--About section-->
+
+    <section id="overlay" class="d-none justify-content-center align-items-center  ">
+        <div class="overlayitem position-relative  ">
+            <i class="fas  fa-close fs-1 position-absolute top-0 end-0 pe-4 pt-4" id="iconClose"></i>
+
+            <div class="row p-4">
+                <div class="col-md-4">
+                    <img src="image/Mohamed Rabee.png" class="w-100 rounded-circle personal" alt="personla image">
+                </div>
+                <div class="col-md-8 mt-5">
+                    <p class="fs-2 text-white lh-lg">
+                        Mohamed Rabee, a Front-end Developer. 21 years old. I live in Al-Mahalla Al-Kubra -
+                        Al-Gharbiyya ,Studing information System – Misr Higher Institute For
+                        Commerce & Computers. I'm working now Front-end developer for <span
+                            class="text-danger pe-2">MASAR</span>Company in Saudi Arabia
+                    <h5 class="mb-4 text-white"> <span class="fw-bold fs-4">My Phone: </span><a
+                            class="text-white Phone " href="tel:+20 1123439278">+20
+                            1123439278</a></h5>
+                    <h5 class="text-white"><span class="fw-bold fs-4 "> My Email:</span> <a class="text-white email"
+                            target="_blank" href="mailto:mohamedrabee556677@gmail.com">mohamedrabee556677@gmail.com </a>
+                        <div class="linksAbout  mt-4">
+                            <p class="fined text-uppercase pb-2 text-white">find with me:</p>
+                            <ul class="d-flex gap-3 p-0 m-0">
+
+                                <a target="_blank"
+                                    class="text-white p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                                    href="https://www.facebook.com/profile.php?id=100046332488577&mibextid=ZbWKwL">
+                                    <li class="list-unstyled "><i class="fa-brands fa-facebook-f">
+
+                                        </i>
+                                    </li>
+                                </a>
+
+                                <a target="_blank"
+                                    class="text-white p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                                    href="https://github.com/Mohamerabee98">
+                                    <li class="list-unstyled "><i class="fa-brands fa-github">
+                                        </i>
+                                    </li>
+                                </a>
+                                <a target="_blank"
+                                    class="text-white p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                                    href="https://www.linkedin.com/in/mohamed-rabee-66bb03278">
+                                    <li class="list-unstyled "><i class="fa-brands fa-linkedin-in">
+                                        </i>
+                                    </li>
+                                </a>
+
+                            </ul>
+
+
+                        </div>
+                    </h5>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+<!--Links for js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var typed = new Typed('#work', {
+            strings: [' Fornt-End ', 'Devoleper'],
+            typeSpeed: 50,
+            loop: true,
+            backDelay: 1000,
+            showCursor: true,
+            cursorChar: '|',
+            autoInsertCss: true,
+
+        });
+    </script>
+
+
+</body>
+
+</html>

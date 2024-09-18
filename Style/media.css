@@ -15,6 +15,34 @@
     .navbar-nav a {
         color: white !important;
     }
+
+
+
+    .desoverlay {
+        font-size: 14px !important;
+    }
+
+    .fined {
+        display: none;
+    }
+
+    .headdesc {
+        display: none;
+    }
+
+    /* contact */
+    .leftContact {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .rightContact {
+        background-color: #EDF1F3;
+        box-shadow: rgba(0, 0, 0, .3) 0px 0px 8px;
+        width: 100%;
+    }
+
 }
 
 
@@ -32,6 +60,9 @@
     .navbar-nav a {
         color: white !important;
     }
+
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -47,6 +78,34 @@
     .navbar-nav a {
         color: white !important;
     }
+
+    .desoverlay {
+        font-size: 25px !important;
+    }
+
+    .fined {
+        display: none;
+    }
+
+    .headdesc {
+        display: none;
+    }
+
+    /* contact */
+    .leftContact {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
+        overflow: hidden;
+        width: 40%;
+
+    }
+
+    .rightContact {
+        background-color: #EDF1F3;
+        box-shadow: rgba(0, 0, 0, .3) 0px 0px 8px;
+        width: 50%;
+    }
+
+
 }
 
 /* lg */

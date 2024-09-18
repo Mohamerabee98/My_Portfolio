@@ -76,6 +76,7 @@ p {
 
 .links ul a {
     transition: all .5s;
+
 }
 
 
@@ -232,6 +233,9 @@ p {
 .leftContact {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
     overflow: hidden;
+    width: 40%;
+
+
 }
 
 .leftContact img {
@@ -246,6 +250,7 @@ p {
 .rightContact {
     background-color: #EDF1F3;
     box-shadow: rgba(0, 0, 0, .3) 0px 0px 8px;
+    width: 50%;
 }
 
 .btnForm {
@@ -356,4 +361,12 @@ p {
 
 .swiper-pagination {
     bottom: 5% !important;
+}
+
+.rowform {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
 }

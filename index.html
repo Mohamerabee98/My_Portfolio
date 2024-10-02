@@ -24,14 +24,14 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
     <!--Looding-->
-     <div class="looding">
+    <div class="looding">
         <div class="lds-ellipsis">
             <div></div>
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div> 
+    </div>
 
     <!--Nav bar-->
 
@@ -41,7 +41,7 @@
 
 
 
-            <a class="navbar-brand fs-3 fw-bold ms-5" href="#">Mo Rabee</a>
+            <a class="navbar-brand fs-3 fw-bold ms-5" href="#"><img src="image/logo.png" class="w-50" alt="logo-nav"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -411,7 +411,8 @@
                         <input type="text" name="name" class="form-control p-2" id="NameInput" placeholder="your Name">
                     </div>
                     <div class="mb-4">
-                        <label for="exampleFormControlInput1" class="form-label fs-6 fw-bolder   ">Email address</label>
+                        <label for="exampleFormControlInput1" class="form-label fs-6 fw-bolder   ">Email
+                            address:</label>
                         <input type="email" name="email" class="form-control p-2" id="exampleFormControlInput1"
                             placeholder="name@example.com">
                     </div>
@@ -422,10 +423,10 @@
                     <div class=" mb-4 ">
                         <label for="exampleFormControlTextarea1" class="form-label fs-6 fw-bolder ">Message:</label>
                         <textarea class="form-control p-2 " name="message" id="exampleFormControlTextarea1"
-                            placeholder="Your Message" rows="4"></textarea>
+                            placeholder="Your Message" rows="10"></textarea>
                     </div>
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-                    <button type="submit" class="btn btnForm fw-bold w-100 fs-5">SEND</button>
+                    <button type="submit" class="btn btnForm fw-bold w-100 fs-5 ">SEND</button>
 
                 </form>
             </div>
@@ -499,7 +500,7 @@
     <script src="js/main.js"></script>
     <script>
         var typed = new Typed('#work', {
-            strings: [' Fornt-End ', 'Devoleper'],
+            strings: [' Fornt-End ', 'Developer'],
             typeSpeed: 50,
             loop: true,
             backDelay: 1000,

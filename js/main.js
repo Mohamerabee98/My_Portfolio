@@ -64,5 +64,3 @@ var swiperWork = new Swiper(".swiper-work", {
         prevEl: ".swiper-button-prev",
     },
 });
-let globalid = document.querySelector('#globalid');
-console.log(globalid);

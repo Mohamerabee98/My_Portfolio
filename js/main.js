@@ -64,3 +64,8 @@ var swiperWork = new Swiper(".swiper-work", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
